@@ -20,12 +20,12 @@ import com.carteira.entity.Usuario;
 @ActiveProfiles("test")
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserRepositoryTest {
+public class UsuarioRepositoryTest {
 
   private static final String EMAIL = "email@teste.com";
 
   @Autowired
-  UserRepository repository;
+  UsuarioRepository repository;
 
   @Before
   public void setUp() {
